@@ -21,4 +21,14 @@ public class userTest {
 
 assertEquals(expected, actual);
 }
+@Test
+    public void testGetPassWord() {
+    User user = new User("Henric", "lösenord");
+    user.setUserName("Rocky B");
+    String expected = "lösenord";
+    String actual = user.getPassWord();
+
+        assertEquals(expected, actual);
+    }
+
 }
