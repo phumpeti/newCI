@@ -14,7 +14,7 @@ public class User {
         return userName;
     }
 
-    public String getPassWord() {
+    public String getPassWord(String newPassWord) {
         return passWord;
     }
 
